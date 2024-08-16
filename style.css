@@ -2,7 +2,7 @@
     --branco-principal: #ffffff;
     --cinza-secundario: #C0c0c0;
     --botao-azul: #165bf7;
-    --cor-de-fundo: #00175a;
+    --cor-de-fundo: #000000;
 }
 
 *{
@@ -13,4 +13,12 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+}
+
+.principal{
+    background-image: url(Background.png);
+}
+
+.container{
+    height: 100vh;
 }
