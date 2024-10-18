@@ -1,14 +1,14 @@
 :root{
     --branco-principal: #ffffff;
-    --cinza-secundario: #C0c0c0;
+    --cinza-secundario: #c0c0c0;
     --botao-azul: #165bf7;
-    --cor-de-fundo: #000000;
-    --fonte-principal:"Pirata One";
+    --cor-de-fundo: #00030c;
+    --fonte-principal: "Inter";
 }
 
 *{
     margin: 0;
-    padding: 0;
+    padding:0;
 }
 
 body{
@@ -30,7 +30,7 @@ body{
     grid-template-columns: 50% 50%;
 }
 
-.container-botao{
+.container_botão{
     background-color: var(--botao-azul);
     color: var(--branco-principal);
     border-radius: 5px;
@@ -40,9 +40,9 @@ body{
     margin-bottom: 1em;
 }
 
-.botao2{
-    background-color:transparent;
-    border: 2px solid white;
+.botão2{
+   background-color: transparent;
+   border: 2px solid white;
 }
 
 .container_aviso{
@@ -73,17 +73,47 @@ body{
 }
 
 .descricao_titulo{
-    font-size: 48px ;
+    font-size: 48px;
     font-weight: 700;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
-}   
+}
 
 .secundario_botao{
     display: inline-block;
     margin: 1em;
 }
 
-.container_-descricao{
+.container_descricao{
     padding: 2em;
+}
+
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 48px;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos_titulo{
+    font-size: 48px;
+}
+
+.item_lista{
+    font-size: 32px;
+}
+
+.rodape{
+    text-align: center;
+}
+
+.rodape_lista{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
 }
